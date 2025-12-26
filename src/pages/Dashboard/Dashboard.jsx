@@ -3,6 +3,12 @@ import './Dashboard.css'
 import { fetchDashboardData } from '../../Service/Dashboard.js';
 import toast from 'react-hot-toast';
 import { tr } from 'date-fns/locale';
+
+// Correct way to import a locale (if that is what you are doing)
+import { enUS } from 'date-fns/locale'; 
+
+// OR if you are just importing format:
+import { format } from 'date-fns';
 const Dashboard = () => {
   const [data,setData] = useState(null);
   const [loading,setLoading] = useState(true); 
