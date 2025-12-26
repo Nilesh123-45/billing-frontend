@@ -74,7 +74,9 @@
 
 import Menubar from './components/Menubar/Menubar';
 import Dashboard from './pages/Dashboard/Dashboard';
-import ManageCategory from './pages/ManageCategory/Managecategory';
+// import ManageCategory from './pages/ManageCategory/Managecategory';
+import ManageCategory from './pages/ManageCategory/ManageCategory';
+
 import ManageItems from './pages/ManageItems/Manageitems';
 import ManageUsers from './pages/ManageUsers/Manageusers';
 import Explore from './pages/Explore/Explore';
