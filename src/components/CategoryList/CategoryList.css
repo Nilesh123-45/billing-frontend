@@ -1,0 +1,70 @@
+/* In CategoryList.css */
+
+.category-thumbnail{
+    width: 48px;
+    height:48px;
+    border-radius: 10px;
+    border: 8px solid white;
+    object-fit: cover;
+}
+
+/* .card.theme-blue {
+  background-color: #007bff;
+}
+.card.theme-red {
+  background-color: #dc3545;
+} /*this is for changing the background theme of the items through <div className={`card p-3 ${category.themeName}`}> */
+
+
+/*this also correct */
+/* .list-container { */
+    /* Adds space below the "Search Bar" */
+    /* margin-top: 1rem;  */
+    
+    /* Stacks the items vertically */
+    /* display: flex;
+    flex-direction: column; */
+    
+    /* Creates the space BETWEEN each item */
+    /* gap: 1rem; 
+} */
+
+/* .category-item-card { */
+    /* This replaces Bootstrap's 'card p-3' */
+    /* padding: 1rem;
+    border: 1px solid #444; A border like in your goal image */
+    /* border-radius: 8px;
+    background-color: #3a3a3a; A dark background (adjust as needed) */
+/* } */
+
+/* .category-thumbnail { */
+    /* This is the most important part: forces the image to be small */
+    /* width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    object-fit: cover; Prevents the image from stretching */
+    
+    /* A gray background will show if the image link is broken */
+    /* background-color: #555; 
+} */
+/* Spinner styles */
+/* .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #ccc;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+} */

@@ -1,0 +1,21 @@
+.item-image {
+    width: 48px;  /* Matches your goal image size */
+    height: 48px;
+    border-radius: 8px;
+    object-fit: cover; /* Prevents images from stretching */
+    background-color: #eee; /* Adds a light background for transparent icons */
+}
+/* Add this new class to your ItemList.css */
+.item-text-content {
+  /* This is the magic fix: allows the div to shrink, forcing text to wrap */
+  min-width: 0; 
+  
+  /* We'll move the spacing here to keep the JSX clean */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.item-text-content h6,
+.item-text-content p {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
